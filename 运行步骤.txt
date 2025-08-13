@@ -1,0 +1,25 @@
+运行步骤：
+
+确认文件结构：确保所有 .py 文件和 yt.ini 都在同一个文件夹内。
+
+安装依赖: 在命令行中，进入该文件夹，运行 pip install -r requirements.txt。
+
+安装浏览器驱动: 继续运行 playwright install。
+
+获取YouTube密钥:
+
+访问 Google Cloud Console。
+
+创建一个新项目，启用 "YouTube Data API v3"。
+
+在“凭据”页面，创建一个“OAuth 2.0 客户端ID”，类型选择“桌面应用”。
+
+下载生成的JSON文件，并将其重命名为 client_secret.json，与您的脚本放在一起。
+
+填写配置文件: 仔细填写 yt.ini 中的每一个选项，特别是 douyin_ids, standby_video_path, 和 client_secret_file。
+
+启动程序: 在命令行中运行 python main.py。
+
+首次授权: 程序第一次运行时，会自动打开一个浏览器窗口，要求您登录Google账户并授权。授权完成后，会在文件夹中生成一个 token.json 文件。此后运行不再需要授权。
+
+开始运行: 点击GUI界面上的“✅ 开始运行”按钮，见证奇迹的发生。

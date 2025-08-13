@@ -64,7 +64,7 @@ youtube直播 仍有bug
 |-- requirements.txt
 
 
-然后，创建 `requirements.txt` 文件，内容如下。这是我们项目的所有依赖。
+ `requirements.txt` 文件，内容如下。这是我项目的所有依赖。
 
 **`requirements.txt`**
 
@@ -77,14 +77,14 @@ playwright
 configobj
 
 
-您可以通过 `pip install -r requirements.txt` 来安装所有依赖。
+可以通过 `pip install -r requirements.txt` 来安装所有依赖。
 同时，Playwright 需要安装浏览器驱动，请在命令行运行：`playwright install`
 
 -----
 
 ### **第二步：编码实现 (Coding)**
 
-现在，让我们开始编码。我将为您提供每个模块的代码，并附上详尽的注释。
+现在，开始编码。
 
 #### **1. `yt.ini` (配置文件)**
 

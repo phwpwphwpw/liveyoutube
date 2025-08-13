@@ -111,14 +111,10 @@ ini
   client_secret_file = client_secret.json
 
   # YouTube直播的标题。
-  broadcast_title = 24/7 Live Stream | Powered by Gemini AI
+  broadcast_title = 24/7 Live Stream | Powered by Test
   
   # YouTube直播的描述。
-  broadcast_description = """
-  This is a 24/7 live stream.
-  Powered by advanced automation.
-  Enjoy the content!
-  """
+  broadcast_description =  This is a 24/7 live stream.
   
   # 分类ID: 22=人物与博客, 26=方法与时尚, 24=娱乐, 20=游戏
   category_id = 24
